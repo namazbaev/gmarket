@@ -1,3 +1,4 @@
+import { YMaps, Map } from 'react-yandex-maps';
 import styled, { css } from "styled-components";
 import { ReactComponent as Down } from 'assets/icons/down-arrow.svg'
 import { ReactComponent as Location } from 'assets/icons/location.svg'
@@ -47,4 +48,13 @@ export const IconBtn = styled.button`
     outline: none;
     margin: 0 5px;
     background-color: transparent;
+`
+export const YMap = styled(YMaps)`
+    width: 900px;
+    height: 500px;
+    z-index: 100;
+`
+export const MapYandex = styled(Map)`
+    width: 900px;
+    height: 500px;
 `

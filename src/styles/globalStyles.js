@@ -1,10 +1,6 @@
 import { normalize } from 'styled-normalize';
 import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
-        html, body, #root {
-            /* max-width: 1440px; */
-            /* margin: 0 auto; */
-        }
         ${normalize}
     * {
         margin: 0;

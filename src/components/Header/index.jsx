@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <Container>
             <Back />
-            <Location location="2972 Westheimer Rd. Santa Anaasdasdasddddddddddddd" />
+            <Location />
             <Search placeholder="Search products in Wallmart" />
             <Delivery />
             <Cart />

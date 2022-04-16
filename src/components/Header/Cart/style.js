@@ -38,10 +38,24 @@ export const Sum = styled.span`
     color: var(--black);
 `
 export const Content = styled.div`
-    display: flex;
-    flex-direction: column;
     height: 70vh;
+    display: flex;
     overflow-y: scroll;
+    flex-direction: column;
+    &::-webkit-scrollbar {
+        position: absolute;
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 8px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #77798c;
+        border-radius: 8px;
+    }
 `
 export const Item = styled.div`
     display: flex;

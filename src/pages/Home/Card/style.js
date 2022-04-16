@@ -15,7 +15,7 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 20;
+  z-index: 0;
   border-radius: var(--brd-radius);
   color: ${({ textColor }) => textColor || "var(--card-text-color)"};
   background-color: ${({ background }) => background || "var(--orange-card)"};
